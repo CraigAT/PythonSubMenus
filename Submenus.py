@@ -25,12 +25,9 @@ def main_menu():
         print()
         if len(menu_choice) >= 1:
             match menu_choice:
-                case '1': 
-                    m_sub_menu_1()
-                case '2': 
-                    m_sub_menu_2()
-                case '3':
-                    m_option_3()
+                case '1': m_sub_menu_1()
+                case '2': m_sub_menu_2()
+                case '3': m_option_3()
 
 def m_option_3():
     print('Main Menu - Option 3')
@@ -51,12 +48,9 @@ def m_sub_menu_1():
         print()
         if len(menu_choice) >= 1:
             match menu_choice:
-                case '1': 
-                    m1_sub_menu_1()
-                case '2': 
-                    m1_option_2()
-                case '3':
-                    m1_option_3()
+                case '1': m1_sub_menu_1()
+                case '2': m1_option_2()
+                case '3': m1_option_3()
 
 def m1_option_2():
     print('Sub Menu 1 - Option 2')
@@ -79,10 +73,8 @@ def m_sub_menu_2():
         print()
         if len(menu_choice) >= 1:
             match menu_choice:
-                case '1': 
-                    m2_option_1()
-                case '2': 
-                    m2_option_2()
+                case '1': m2_option_1()
+                case '2': m2_option_2()
 
 def m2_option_1():
     print('Sub Menu 2 - Option 1')
@@ -105,10 +97,8 @@ def m1_sub_menu_1():
         print()
         if len(menu_choice) >= 1:
             match menu_choice:
-                case '1': 
-                    m11_option_1()
-                case '2': 
-                    m11_option_2()
+                case '1': m11_option_1()
+                case '2': m11_option_2()
 
 def m11_option_1():
     print('Sub Sub Menu 1 - Option 1')
